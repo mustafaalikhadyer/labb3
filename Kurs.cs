@@ -10,6 +10,7 @@ namespace ConsoleApp1
         public int KursID { get; set; }
 
         [Required]
-        public string KursNamn { get; set; } = string.Empty; // Fixar warning CS8618
+        public string KursNamn { get; set; } = string.Empty;
     }
 }
+
