@@ -10,15 +10,16 @@ namespace ConsoleApp1
         public int PersonalID { get; set; }
 
         [Required]
-        public string Fornamn { get; set; } = string.Empty;  // Fixar CS8618
+        public string Fornamn { get; set; } = string.Empty;
 
         [Required]
-        public string Efternamn { get; set; } = string.Empty; // Fixar CS8618
+        public string Efternamn { get; set; } = string.Empty;
 
         [Required]
-        public string Personnummer { get; set; } = string.Empty; // Fixar CS8618
+        public string Personnummer { get; set; } = string.Empty;
 
         [Required]
-        public string Befattning { get; set; } = string.Empty; // Fixar CS8618
-    }
+        public string Befattning { get; set; } = string.Empty;
+    
+
 }
