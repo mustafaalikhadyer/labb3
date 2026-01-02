@@ -11,7 +11,7 @@ namespace ConsoleApp1
         public int KlassID { get; set; }
 
         [Required]
-        public string KlassNamn { get; set; } = string.Empty; // Fixar CS8618
+        public string KlassNamn { get; set; } = string.Empty;
 
         // Navigation properties
         public ICollection<Student> Studenter { get; set; } = new List<Student>();
@@ -19,3 +19,4 @@ namespace ConsoleApp1
         public Personal? AnsvarigLarare { get; set; }
     }
 }
+
